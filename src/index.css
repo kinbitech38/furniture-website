@@ -19,19 +19,24 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
   }
   body {
     @apply font-sans text-text-primary bg-bg-primary antialiased;
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
   }
 }
 
 @layer components {
   .container-custom {
-    @apply max-w-7xl mx-auto px-6 lg:px-12;
+    @apply w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 xl:px-12;
   }
   
   .heading-serif {
-    @apply font-serif leading-[1.1] tracking-tight;
+    @apply font-serif leading-[1.12] tracking-tight;
   }
 
   .scrollbar-hide::-webkit-scrollbar {

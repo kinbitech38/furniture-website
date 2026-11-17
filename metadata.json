@@ -1,6 +1,6 @@
 {
-  "name": "furni.portfolio",
+  "name": "Gamila's interior",
   "description": "A high-end furniture design portfolio showcasing modern interior pieces, custom projects, and design expertise.",
   "requestFramePermissions": [],
-  "majorCapabilities": []
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
